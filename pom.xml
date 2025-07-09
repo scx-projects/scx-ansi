@@ -12,7 +12,7 @@
 
     <artifactId>scx-ansi</artifactId>
     <packaging>jar</packaging>
-    <version>4.0.0</version>
+    <version>4.0.1</version>
 
     <name>SCX ANSI</name>
     <url>https://github.com/scx-projects/scx-ansi</url>
@@ -77,8 +77,8 @@
 
         <dependency>
             <groupId>cool.scx</groupId>
-            <artifactId>scx-ffm</artifactId>
-            <version>${scx-ffm.version}</version>
+            <artifactId>scx-ffm-platform</artifactId>
+            <version>${scx-ffm-platform.version}</version>
         </dependency>
 
         <!-- TestNG 测试包 -->
@@ -95,7 +95,7 @@
 
         <!-- *********************** 以下为依赖包版本 *********************** -->
         <scx-common.version>4.0.0</scx-common.version>
-        <scx-ffm.version>4.0.0</scx-ffm.version>
+        <scx-ffm-platform.version>1.0.0</scx-ffm-platform.version>
         <testng.version>7.10.2</testng.version>
 
     </properties>
