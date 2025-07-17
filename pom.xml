@@ -12,7 +12,7 @@
 
     <artifactId>scx-ansi</artifactId>
     <packaging>jar</packaging>
-    <version>4.0.4</version>
+    <version>4.0.5</version>
 
     <name>SCX ANSI</name>
     <url>https://github.com/scx-projects/scx-ansi</url>
