@@ -95,7 +95,7 @@
 
         <!-- *********************** 以下为依赖包版本 *********************** -->
         <scx-common.version>4.0.1</scx-common.version>
-        <scx-ffm-platform.version>1.0.3</scx-ffm-platform.version>
+        <scx-ffm-platform.version>1.0.4</scx-ffm-platform.version>
         <testng.version>7.10.2</testng.version>
 
     </properties>
