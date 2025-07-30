@@ -1,5 +1,6 @@
-# SCX ANSI
-
+<p align="center">
+    <img src="https://scx.cool/scx-logo/scx-ansi-logo.svg" width="300px" alt="scx-ansi-logo"/>
+</p>
 <p align="center">
     <a target="_blank" href="https://github.com/scx-projects/scx-ansi/actions/workflows/ci.yml">
         <img src="https://github.com/scx-projects/scx-ansi/actions/workflows/ci.yml/badge.svg" alt="CI"/>
