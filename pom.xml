@@ -71,12 +71,6 @@
 
         <dependency>
             <groupId>cool.scx</groupId>
-            <artifactId>scx-common</artifactId>
-            <version>${scx-common.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>cool.scx</groupId>
             <artifactId>scx-ffm-platform</artifactId>
             <version>${scx-ffm-platform.version}</version>
         </dependency>
@@ -94,7 +88,6 @@
     <properties>
 
         <!-- *********************** 以下为依赖包版本 *********************** -->
-        <scx-common.version>4.0.3</scx-common.version>
         <scx-ffm-platform.version>1.1.0</scx-ffm-platform.version>
         <testng.version>7.10.2</testng.version>
 
