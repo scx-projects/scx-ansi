@@ -1,9 +1,7 @@
 package cool.scx.ansi;
 
-import cool.scx.common.os.OSHelper;
 import cool.scx.ffm.mapper.IntMapper;
 
-import static cool.scx.common.os.OSType.WINDOWS;
 import static cool.scx.ffm.platform.win32.Kernel32.KERNEL32;
 
 /// ANSI Helper
@@ -33,15 +31,16 @@ class AnsiHelper {
     ///
     /// @return 是否支持
     static boolean checkAnsiSupport() {
-        var osInfo = OSHelper.getOSInfo();
+        var osName = System.getProperty("os.name");
+        var osVersion = System.getProperty("os.version");
 
         // 不是 Windows 表示支持
-        if (osInfo.type() != WINDOWS) {
+        if (!osName.startsWith("Windows")) {
             return true;
         }
 
         // 不是 Windows 10 以上则表示不支持
-        if (!osInfo.version().startsWith("10") && !osInfo.version().startsWith("11")) {
+        if (!osVersion.startsWith("10") && !osVersion.startsWith("11")) {
             return false;
         }
 
